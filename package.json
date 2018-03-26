@@ -4,8 +4,7 @@
   "description": "Nossa biblioteca do curso de js com tdd na pratica",
   "main": "index.js",
   "scripts": {
-    "lennon": "echo 'Hello World'",
-    "lint": "./node_modules/.bin/eslint src*.js",
+    "lint": "./node_modules/.bin/eslint src/*.js",
     "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
